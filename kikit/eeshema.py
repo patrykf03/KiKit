@@ -70,6 +70,16 @@ def readHeader(file):
             header["comment7"] = line.split(maxsplit=2)[1]
         elif line.startswith("Comment8"):
             header["comment8"] = line.split(maxsplit=2)[1]
+        elif line.startswith("Comment9"):
+            header["comment9"] = line.split(maxsplit=2)[1]
+        elif line.startswith("Comment10"):
+            header["comment10"] = line.split(maxsplit=2)[1]
+        elif line.startswith("Comment11"):
+            header["comment11"] = line.split(maxsplit=2)[1]
+        elif line.startswith("Comment12"):
+            header["comment12"] = line.split(maxsplit=2)[1]
+        elif line.startswith("Comment13"):
+            header["comment13"] = line.split(maxsplit=2)[1]
         elif line.startswith("encoding"):
             header["encoding"] = line.split(maxsplit=2)[1]
         else:
